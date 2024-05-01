@@ -1,4 +1,4 @@
- import pygame                             # importing pygame for run the code
+import pygame                             # importing pygame for run the code
 import random                             # we are importing randomly            
 import math                               # importing the math
 
@@ -166,7 +166,7 @@ def move_tiles(window, tiles, clock, direction):                # defining to mo
         updated = False
         sorted_tiles = sorted(tiles.values(), key=sort_func, reverse=reverse)
 
-        for i, tile in enumerate(sorted_tiles):ng
+        for i, tile in enumerate(sorted_tiles):
             if boundary_check(tile):
                 continue
 
